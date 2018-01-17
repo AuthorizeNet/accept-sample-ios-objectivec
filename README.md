@@ -14,9 +14,9 @@ Open the project XCode and run.
 
 ## Examples
 
-Sample app demonstrates usage of Apple Pay and the Accept Mobile SDK using Objective-C
+Sample app demonstrates usage of Accept Mobile SDK using Objective-C
 
-![Apple Pay](screenshot2.png?raw=true "Apple Pay")  ![Accept Token](screenshot1.png?raw=true "Accept Token")
+![Accept Token](screenshot1.png?raw=true "Accept Token")
 
 
 
