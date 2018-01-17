@@ -1,0 +1,37 @@
+{
+  "name": "AuthorizeNetAccept",
+  "authors": "Authorize.Net",
+  "version": "0.2.1",
+  "summary": "Authorize.Net Accept SDK for iOS",
+  "homepage": "https://visa.com",
+  "license": {
+    "type": "VISA",
+    "text": "                            © VISA Inc., 2016. All rights reserved.\n"
+  },
+  "platforms": {
+    "ios": "8.4"
+  },
+  "source": {
+    "git": "https://github.com/AuthorizeNet/accept-sdk-ios.git"
+  },
+  "requires_arc": true,
+  "default_subspecs": "Source",
+  "subspecs": [
+    {
+      "name": "Source",
+      "source_files": "AcceptSDK/**/*.*"
+    },
+    {
+      "name": "Debug",
+      "ios": {
+        "vendored_frameworks": "AcceptSDK-Framework/AcceptSDK.framework"
+      }
+    },
+    {
+      "name": "Appstore",
+      "ios": {
+        "vendored_frameworks": "AcceptSDK-Framework/Appstore/AcceptSDK.framework"
+      }
+    }
+  ]
+}

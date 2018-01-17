@@ -10,7 +10,13 @@ Clone this repository
 git clone https://github.com/AuthorizeNet/accept-sample-ios-objectivec.git
 ````
 
-Open the project XCode and run.  
-  
+Open the project XCode and run.
+
+## Examples
+
+Sample app demonstrates usage of Accept Mobile SDK using Objective-C
+
+![Accept Token](screenshot1.png?raw=true "Accept Token")
+
 
 
