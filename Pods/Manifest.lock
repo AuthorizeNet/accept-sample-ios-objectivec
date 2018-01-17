@@ -1,0 +1,12 @@
+PODS:
+  - AuthorizeNetAccept (0.2.0)
+
+DEPENDENCIES:
+  - AuthorizeNetAccept
+
+SPEC CHECKSUMS:
+  AuthorizeNetAccept: aa93937e5cf45d9b8ed53b500a87b37ed1d054d9
+
+PODFILE CHECKSUM: 2301014877952993cc9f1cf69c51cb8f37a46661
+
+COCOAPODS: 1.2.1
