@@ -5,6 +5,6 @@ platform :ios, '8.4'
 use_frameworks!
 
 target 'accept-sample-objc' do
-pod 'AuthorizeNetAccept'
+pod 'AuthorizeNetAccept', '~>0.3.0'
 end
 

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <AcceptSDK/AcceptSDK-Swift.h>
+#import <AuthorizeNetAccept/AuthorizeNetAccept-Swift.h>
 
 #define kClientName @"5KP3u95bQpv"
 #define kClientKey @"5FcB6WrfHGS76gHW3v7btBCE3HuuBuke9Pj96Ztfn5R32G5ep42vne7MCWZtAucY"

@@ -7,44 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F51F26FB7AF27D8E34B4FB92E6E5D91 /* Pods-accept-sample-objc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E53BBAE222DFEFC99D2EA5AF8363C0E5 /* Pods-accept-sample-objc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		821F0907754877C940602ED4004D8988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A29F62147A9CB148AC0AC916376DA7E2 /* Pods-accept-sample-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56986086AA97A83EBB903E8729FA02AA /* Pods-accept-sample-objc-dummy.m */; };
+		242AF36C542876CF413D1D5BC3666FCA /* AcceptSDKTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F83FADDFAE60243621C3E4F08250E2 /* AcceptSDKTokenResponse.swift */; };
+		3B639FAA73FF2E64EB90CC2E821B969C /* MerchantAuthenticaton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C2D44CAFC7802D98718764212004E8 /* MerchantAuthenticaton.swift */; };
+		3BC438B5F7BB4EE3521351A11B28415C /* Pods-accept-sample-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56986086AA97A83EBB903E8729FA02AA /* Pods-accept-sample-objc-dummy.m */; };
+		450BEC3D2BF245113B6D24682174D44C /* AcceptSDKHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EECDB78A21613A57C7610A6A2DD5E9 /* AcceptSDKHandler.swift */; };
+		473D3B93C8C04C1757ACAC2AB8939EC8 /* AcceptSDKCardFieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA2A39854273136320AE67F08C9415 /* AcceptSDKCardFieldsValidator.swift */; };
+		4F9C0EF6BE47F95CCFEDCD74C56D8842 /* AuthorizeNetAccept-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A412E9C638C598785764639FAD8225 /* AuthorizeNetAccept-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EC6EEA5E7D7FBC17578B66B48FC087 /* AcceptSDKTokenInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6026418A66E0B88C96CBFB349956B0 /* AcceptSDKTokenInterface.swift */; };
+		54164C7A5FAD0CDAF8681E69A6A90E47 /* AcceptSDKSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA85B1FF51971E79F983FD1DBE7E4C30 /* AcceptSDKSettings.swift */; };
+		5C8BA555879F9EE66F2FF9EE7936EE03 /* AcceptSDKHttpConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A4A77A856EF23A6C41D9377E00A7F5 /* AcceptSDKHttpConnection.swift */; };
+		68A1520B4DA14420D83AA94FA8F273E6 /* AcceptSDKBaseURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62643F5C2224CCC730A5E9E155E532D8 /* AcceptSDKBaseURLBuilder.swift */; };
+		6AE03167C2AB3F60EE29FE86C62207E5 /* AcceptSDKTokenAPIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D9FAAB7C0CC33265AF0CD6FB1DE93 /* AcceptSDKTokenAPIBuilder.swift */; };
+		759A725D42B0087EC1D68E6968149C06 /* AcceptSDKPaymentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C28AEF3F0672BFB46FFEBD3252B54DE /* AcceptSDKPaymentRequest.swift */; };
+		79B78CF4EA6D122F156712DBFB0EEA42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7B308F0A1A661A9ADE76F3ABA754E4C3 /* AcceptSDKInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2085516826EBF171F0C77BCA69D5C2 /* AcceptSDKInternal.swift */; };
+		803075BF3F9C482F3E5C714D2EFCB9E4 /* AcceptSDKStringValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111FC727DAFA4032D325A49874CE2D63 /* AcceptSDKStringValidator.swift */; };
+		856F54FCB3E560D2BABB235B5EDFEF3B /* Pods-accept-sample-objc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E53BBAE222DFEFC99D2EA5AF8363C0E5 /* Pods-accept-sample-objc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		882C7ED1D02DE4CE3743ADDEA17794F7 /* AcceptSDKErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C37399931F99531719E34A18632D5F /* AcceptSDKErrorResponse.swift */; };
+		8D09212CB0484DC03D0ADB850D19AF48 /* AccepSDKtHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7959EC9BC4A0050D113F790280A0E /* AccepSDKtHttp.swift */; };
+		97E1DCD2A90FA11126707652EA4C1678 /* AcceptSDKTokenInterfaceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DEEFA47CE91679255AF94A1423773F /* AcceptSDKTokenInterfaceBuilder.swift */; };
+		A099939FC96BCCAB7631C8082A01BA53 /* FingerPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8388532E5B26E4010920B350AF0880FA /* FingerPrint.swift */; };
+		B4A171D23B368B0A194578E6FD9D42ED /* AuthorizeNetAccept-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A09384514618AC9DF5EF02CB4F5F3754 /* AuthorizeNetAccept-dummy.m */; };
+		B5EA89B63FA52C916562CD0884028E0A /* SecurePaymentContainerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3335EB4F8AAC9D0E9902CEAB811151B8 /* SecurePaymentContainerRequest.swift */; };
+		CBD81B57883FE4DFCBEAD7ACE0EB2C2D /* AcceptSDKBaseInterfaceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338F3641D69D8CCC9199DB0B50CF349 /* AcceptSDKBaseInterfaceBuilder.swift */; };
+		D37D807F6AE36D61ECF00C7AD1F3BD6C /* AcceptSDKBaseInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47ADA597E6FFE02A4897D10147873FA3 /* AcceptSDKBaseInterface.swift */; };
+		F98CEAE20414153993EAABC5E80AB09D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2DE8226C49408B9001588938D2C67F4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A55533957FF181E5D504D9E4A28316D;
+			remoteInfo = AuthorizeNetAccept;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0AC4B6A4E337AFB4C32D3F96DDAC804C /* AcceptSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AcceptSDK.framework; path = "AcceptSDK-Framework/AcceptSDK.framework"; sourceTree = "<group>"; };
+		00A412E9C638C598785764639FAD8225 /* AuthorizeNetAccept-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AuthorizeNetAccept-umbrella.h"; sourceTree = "<group>"; };
+		08EECDB78A21613A57C7610A6A2DD5E9 /* AcceptSDKHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKHandler.swift; path = AcceptSDK/AcceptSDKHandler.swift; sourceTree = "<group>"; };
+		0C28AEF3F0672BFB46FFEBD3252B54DE /* AcceptSDKPaymentRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKPaymentRequest.swift; path = AcceptSDK/Request/AcceptSDKPaymentRequest.swift; sourceTree = "<group>"; };
+		111FC727DAFA4032D325A49874CE2D63 /* AcceptSDKStringValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKStringValidator.swift; path = AcceptSDK/Validators/AcceptSDKStringValidator.swift; sourceTree = "<group>"; };
+		15DEEFA47CE91679255AF94A1423773F /* AcceptSDKTokenInterfaceBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKTokenInterfaceBuilder.swift; path = AcceptSDK/AcceptBuilder/AcceptSDKTokenInterfaceBuilder.swift; sourceTree = "<group>"; };
+		1DAEB2CB7C6534AF144561AFCC039044 /* Pods_accept_sample_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_accept_sample_objc.framework; path = "Pods-accept-sample-objc.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2085516826EBF171F0C77BCA69D5C2 /* AcceptSDKInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKInternal.swift; path = AcceptSDK/AcceptSDKInternal.swift; sourceTree = "<group>"; };
+		2B6B9503E3E4641E05770102CBE08CE6 /* AuthorizeNetAccept.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AuthorizeNetAccept.framework; path = AuthorizeNetAccept.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD86E370DE7C1025C46F80C831EB70B /* Pods-accept-sample-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accept-sample-objc.release.xcconfig"; sourceTree = "<group>"; };
+		3335EB4F8AAC9D0E9902CEAB811151B8 /* SecurePaymentContainerRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecurePaymentContainerRequest.swift; path = AcceptSDK/Request/SecurePaymentContainerRequest.swift; sourceTree = "<group>"; };
+		36A4A77A856EF23A6C41D9377E00A7F5 /* AcceptSDKHttpConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKHttpConnection.swift; path = AcceptSDK/Network/AcceptSDKHttpConnection.swift; sourceTree = "<group>"; };
 		3905D1573BD6E21578F804B0805ECFA9 /* Pods-accept-sample-objc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-accept-sample-objc-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F36952CA7D1E5E67226CDE137069117 /* Pods-accept-sample-objc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-accept-sample-objc-acknowledgements.plist"; sourceTree = "<group>"; };
-		48B8A8E61718E5A60C6BE5C25F4DDE5F /* Pods_accept_sample_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_accept_sample_objc.framework; path = "Pods-accept-sample-objc.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47ADA597E6FFE02A4897D10147873FA3 /* AcceptSDKBaseInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKBaseInterface.swift; path = AcceptSDK/Interface/AcceptSDKBaseInterface.swift; sourceTree = "<group>"; };
 		56986086AA97A83EBB903E8729FA02AA /* Pods-accept-sample-objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-accept-sample-objc-dummy.m"; sourceTree = "<group>"; };
+		579D9FAAB7C0CC33265AF0CD6FB1DE93 /* AcceptSDKTokenAPIBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKTokenAPIBuilder.swift; path = AcceptSDK/AcceptBuilder/AcceptSDKTokenAPIBuilder.swift; sourceTree = "<group>"; };
 		5B2C96157DC2B46015D622FC8A933321 /* Pods-accept-sample-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accept-sample-objc.debug.xcconfig"; sourceTree = "<group>"; };
+		62643F5C2224CCC730A5E9E155E532D8 /* AcceptSDKBaseURLBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKBaseURLBuilder.swift; path = AcceptSDK/AcceptBuilder/AcceptSDKBaseURLBuilder.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B996CC12EDDDC99155742E9FAF53FFF /* Pods-accept-sample-objc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-accept-sample-objc.modulemap"; sourceTree = "<group>"; };
 		6BFC226D0ECC6CF103F3B94BC8E155EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73DFE2F1120B93356AF97805FED4EE41 /* AuthorizeNetAccept.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AuthorizeNetAccept.xcconfig; sourceTree = "<group>"; };
 		7732C223FAA18F642B65021C7C42DB9E /* Pods-accept-sample-objc-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-accept-sample-objc-frameworks.sh"; sourceTree = "<group>"; };
+		8047E955F483FE18FB2D4203187C6F78 /* AuthorizeNetAccept.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AuthorizeNetAccept.modulemap; sourceTree = "<group>"; };
+		8388532E5B26E4010920B350AF0880FA /* FingerPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FingerPrint.swift; path = AcceptSDK/Request/FingerPrint.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A09384514618AC9DF5EF02CB4F5F3754 /* AuthorizeNetAccept-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AuthorizeNetAccept-dummy.m"; sourceTree = "<group>"; };
+		A1F7959EC9BC4A0050D113F790280A0E /* AccepSDKtHttp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccepSDKtHttp.swift; path = AcceptSDK/Network/AccepSDKtHttp.swift; sourceTree = "<group>"; };
+		AA85B1FF51971E79F983FD1DBE7E4C30 /* AcceptSDKSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKSettings.swift; path = AcceptSDK/AcceptSDKSettings.swift; sourceTree = "<group>"; };
+		B9C2D44CAFC7802D98718764212004E8 /* MerchantAuthenticaton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MerchantAuthenticaton.swift; path = AcceptSDK/Request/MerchantAuthenticaton.swift; sourceTree = "<group>"; };
+		C338F3641D69D8CCC9199DB0B50CF349 /* AcceptSDKBaseInterfaceBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKBaseInterfaceBuilder.swift; path = AcceptSDK/AcceptBuilder/AcceptSDKBaseInterfaceBuilder.swift; sourceTree = "<group>"; };
+		C5C37399931F99531719E34A18632D5F /* AcceptSDKErrorResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKErrorResponse.swift; path = AcceptSDK/Response/AcceptSDKErrorResponse.swift; sourceTree = "<group>"; };
 		D2D677B7A913CF2EA02A218452A910B8 /* Pods-accept-sample-objc-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-accept-sample-objc-resources.sh"; sourceTree = "<group>"; };
+		D5F8334587C901ADDBEA8190763B652A /* AuthorizeNetAccept-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AuthorizeNetAccept-prefix.pch"; sourceTree = "<group>"; };
+		D8F83FADDFAE60243621C3E4F08250E2 /* AcceptSDKTokenResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKTokenResponse.swift; path = AcceptSDK/Response/AcceptSDKTokenResponse.swift; sourceTree = "<group>"; };
 		E53BBAE222DFEFC99D2EA5AF8363C0E5 /* Pods-accept-sample-objc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-accept-sample-objc-umbrella.h"; sourceTree = "<group>"; };
+		EF6026418A66E0B88C96CBFB349956B0 /* AcceptSDKTokenInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKTokenInterface.swift; path = AcceptSDK/Interface/AcceptSDKTokenInterface.swift; sourceTree = "<group>"; };
+		F1BA2A39854273136320AE67F08C9415 /* AcceptSDKCardFieldsValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AcceptSDKCardFieldsValidator.swift; path = AcceptSDK/Validators/AcceptSDKCardFieldsValidator.swift; sourceTree = "<group>"; };
+		F6AC3F73D3B8ED8CCCBF382973E9C24C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B11ED2BFB3CB038652D45644B2FE3A4 /* Frameworks */ = {
+		459D7A1AA120A5C2BF231158433184BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				821F0907754877C940602ED4004D8988 /* Foundation.framework in Frameworks */,
+				79B78CF4EA6D122F156712DBFB0EEA42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73FBD03DE39701AF89DF6DEA110124C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98CEAE20414153993EAABC5E80AB09D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		550A0F9FC600EF13DB57069B918F7A87 /* Products */ = {
+		0C9ADFED160CABCCBEE4D5707C49278A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				48B8A8E61718E5A60C6BE5C25F4DDE5F /* Pods_accept_sample_objc.framework */,
+				8047E955F483FE18FB2D4203187C6F78 /* AuthorizeNetAccept.modulemap */,
+				73DFE2F1120B93356AF97805FED4EE41 /* AuthorizeNetAccept.xcconfig */,
+				A09384514618AC9DF5EF02CB4F5F3754 /* AuthorizeNetAccept-dummy.m */,
+				D5F8334587C901ADDBEA8190763B652A /* AuthorizeNetAccept-prefix.pch */,
+				00A412E9C638C598785764639FAD8225 /* AuthorizeNetAccept-umbrella.h */,
+				F6AC3F73D3B8ED8CCCBF382973E9C24C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AuthorizeNetAccept";
+			sourceTree = "<group>";
+		};
+		42FDB2A81F63B78ECD393EE739FDFAA9 /* AuthorizeNetAccept */ = {
+			isa = PBXGroup;
+			children = (
+				A1F7959EC9BC4A0050D113F790280A0E /* AccepSDKtHttp.swift */,
+				47ADA597E6FFE02A4897D10147873FA3 /* AcceptSDKBaseInterface.swift */,
+				C338F3641D69D8CCC9199DB0B50CF349 /* AcceptSDKBaseInterfaceBuilder.swift */,
+				62643F5C2224CCC730A5E9E155E532D8 /* AcceptSDKBaseURLBuilder.swift */,
+				F1BA2A39854273136320AE67F08C9415 /* AcceptSDKCardFieldsValidator.swift */,
+				C5C37399931F99531719E34A18632D5F /* AcceptSDKErrorResponse.swift */,
+				08EECDB78A21613A57C7610A6A2DD5E9 /* AcceptSDKHandler.swift */,
+				36A4A77A856EF23A6C41D9377E00A7F5 /* AcceptSDKHttpConnection.swift */,
+				2B2085516826EBF171F0C77BCA69D5C2 /* AcceptSDKInternal.swift */,
+				0C28AEF3F0672BFB46FFEBD3252B54DE /* AcceptSDKPaymentRequest.swift */,
+				AA85B1FF51971E79F983FD1DBE7E4C30 /* AcceptSDKSettings.swift */,
+				111FC727DAFA4032D325A49874CE2D63 /* AcceptSDKStringValidator.swift */,
+				579D9FAAB7C0CC33265AF0CD6FB1DE93 /* AcceptSDKTokenAPIBuilder.swift */,
+				EF6026418A66E0B88C96CBFB349956B0 /* AcceptSDKTokenInterface.swift */,
+				15DEEFA47CE91679255AF94A1423773F /* AcceptSDKTokenInterfaceBuilder.swift */,
+				D8F83FADDFAE60243621C3E4F08250E2 /* AcceptSDKTokenResponse.swift */,
+				8388532E5B26E4010920B350AF0880FA /* FingerPrint.swift */,
+				B9C2D44CAFC7802D98718764212004E8 /* MerchantAuthenticaton.swift */,
+				3335EB4F8AAC9D0E9902CEAB811151B8 /* SecurePaymentContainerRequest.swift */,
+				0C9ADFED160CABCCBEE4D5707C49278A /* Support Files */,
+			);
+			name = AuthorizeNetAccept;
+			path = AuthorizeNetAccept;
+			sourceTree = "<group>";
+		};
+		452D9C9E4A21E283CF83F754577C28A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B6B9503E3E4641E05770102CBE08CE6 /* AuthorizeNetAccept.framework */,
+				1DAEB2CB7C6534AF144561AFCC039044 /* Pods_accept_sample_objc.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,18 +162,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F4917FF5F493CE9796F8A131E21B5802 /* Pods */,
-				550A0F9FC600EF13DB57069B918F7A87 /* Products */,
+				EB5AE2C0311CF4425F4F7BE6532BC6B9 /* Pods */,
+				452D9C9E4A21E283CF83F754577C28A8 /* Products */,
 				BB98A889D9DEF556C76BE1D5FDC1A77F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		A40BED2C65265A3E133DA335B0A3AB1E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0AC4B6A4E337AFB4C32D3F96DDAC804C /* AcceptSDK.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BB98A889D9DEF556C76BE1D5FDC1A77F /* Targets Support Files */ = {
@@ -110,19 +210,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D7ACC9356FED44DB71C8B68A579FD0D1 /* AuthorizeNetAccept */ = {
+		EB5AE2C0311CF4425F4F7BE6532BC6B9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A40BED2C65265A3E133DA335B0A3AB1E /* Frameworks */,
-			);
-			name = AuthorizeNetAccept;
-			path = AuthorizeNetAccept;
-			sourceTree = "<group>";
-		};
-		F4917FF5F493CE9796F8A131E21B5802 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D7ACC9356FED44DB71C8B68A579FD0D1 /* AuthorizeNetAccept */,
+				42FDB2A81F63B78ECD393EE739FDFAA9 /* AuthorizeNetAccept */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -130,32 +221,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		25F51384601DD3063F05F7295C5437AF /* Headers */ = {
+		689078C8A2C2EC050DD18E4FD831F9B3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F51F26FB7AF27D8E34B4FB92E6E5D91 /* Pods-accept-sample-objc-umbrella.h in Headers */,
+				856F54FCB3E560D2BABB235B5EDFEF3B /* Pods-accept-sample-objc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FD83461F2E7C259B5BEFAFABF08C66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9C0EF6BE47F95CCFEDCD74C56D8842 /* AuthorizeNetAccept-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C11719639745F7D64FEAD3F495535C1C /* Pods-accept-sample-objc */ = {
+		1A55533957FF181E5D504D9E4A28316D /* AuthorizeNetAccept */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD5D9630EFAC90BC4666939EC635A508 /* Build configuration list for PBXNativeTarget "Pods-accept-sample-objc" */;
+			buildConfigurationList = 64C75B0CAE4C245D1B327037E928360B /* Build configuration list for PBXNativeTarget "AuthorizeNetAccept" */;
 			buildPhases = (
-				58DD7FACBA81FCCDD751AF1B6EAEBA8E /* Sources */,
-				3B11ED2BFB3CB038652D45644B2FE3A4 /* Frameworks */,
-				25F51384601DD3063F05F7295C5437AF /* Headers */,
+				68F386C185868D8EC6244F0A09FEFC6F /* Sources */,
+				459D7A1AA120A5C2BF231158433184BC /* Frameworks */,
+				B3FD83461F2E7C259B5BEFAFABF08C66 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = AuthorizeNetAccept;
+			productName = AuthorizeNetAccept;
+			productReference = 2B6B9503E3E4641E05770102CBE08CE6 /* AuthorizeNetAccept.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCC7A389728E74354B4D0C099B5FB2E4 /* Pods-accept-sample-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E6572D2FB0D9E56C1522D6709A736A /* Build configuration list for PBXNativeTarget "Pods-accept-sample-objc" */;
+			buildPhases = (
+				8898068B276AAAAE973E18B7989552D1 /* Sources */,
+				73FBD03DE39701AF89DF6DEA110124C2 /* Frameworks */,
+				689078C8A2C2EC050DD18E4FD831F9B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B244BF39803F3C664AA911B89761D5CB /* PBXTargetDependency */,
+			);
 			name = "Pods-accept-sample-objc";
 			productName = "Pods-accept-sample-objc";
-			productReference = 48B8A8E61718E5A60C6BE5C25F4DDE5F /* Pods_accept_sample_objc.framework */;
+			productReference = 1DAEB2CB7C6534AF144561AFCC039044 /* Pods_accept_sample_objc.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -175,28 +292,65 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 550A0F9FC600EF13DB57069B918F7A87 /* Products */;
+			productRefGroup = 452D9C9E4A21E283CF83F754577C28A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C11719639745F7D64FEAD3F495535C1C /* Pods-accept-sample-objc */,
+				1A55533957FF181E5D504D9E4A28316D /* AuthorizeNetAccept */,
+				DCC7A389728E74354B4D0C099B5FB2E4 /* Pods-accept-sample-objc */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		58DD7FACBA81FCCDD751AF1B6EAEBA8E /* Sources */ = {
+		68F386C185868D8EC6244F0A09FEFC6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A29F62147A9CB148AC0AC916376DA7E2 /* Pods-accept-sample-objc-dummy.m in Sources */,
+				8D09212CB0484DC03D0ADB850D19AF48 /* AccepSDKtHttp.swift in Sources */,
+				D37D807F6AE36D61ECF00C7AD1F3BD6C /* AcceptSDKBaseInterface.swift in Sources */,
+				CBD81B57883FE4DFCBEAD7ACE0EB2C2D /* AcceptSDKBaseInterfaceBuilder.swift in Sources */,
+				68A1520B4DA14420D83AA94FA8F273E6 /* AcceptSDKBaseURLBuilder.swift in Sources */,
+				473D3B93C8C04C1757ACAC2AB8939EC8 /* AcceptSDKCardFieldsValidator.swift in Sources */,
+				882C7ED1D02DE4CE3743ADDEA17794F7 /* AcceptSDKErrorResponse.swift in Sources */,
+				450BEC3D2BF245113B6D24682174D44C /* AcceptSDKHandler.swift in Sources */,
+				5C8BA555879F9EE66F2FF9EE7936EE03 /* AcceptSDKHttpConnection.swift in Sources */,
+				7B308F0A1A661A9ADE76F3ABA754E4C3 /* AcceptSDKInternal.swift in Sources */,
+				759A725D42B0087EC1D68E6968149C06 /* AcceptSDKPaymentRequest.swift in Sources */,
+				54164C7A5FAD0CDAF8681E69A6A90E47 /* AcceptSDKSettings.swift in Sources */,
+				803075BF3F9C482F3E5C714D2EFCB9E4 /* AcceptSDKStringValidator.swift in Sources */,
+				6AE03167C2AB3F60EE29FE86C62207E5 /* AcceptSDKTokenAPIBuilder.swift in Sources */,
+				53EC6EEA5E7D7FBC17578B66B48FC087 /* AcceptSDKTokenInterface.swift in Sources */,
+				97E1DCD2A90FA11126707652EA4C1678 /* AcceptSDKTokenInterfaceBuilder.swift in Sources */,
+				242AF36C542876CF413D1D5BC3666FCA /* AcceptSDKTokenResponse.swift in Sources */,
+				B4A171D23B368B0A194578E6FD9D42ED /* AuthorizeNetAccept-dummy.m in Sources */,
+				A099939FC96BCCAB7631C8082A01BA53 /* FingerPrint.swift in Sources */,
+				3B639FAA73FF2E64EB90CC2E821B969C /* MerchantAuthenticaton.swift in Sources */,
+				B5EA89B63FA52C916562CD0884028E0A /* SecurePaymentContainerRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8898068B276AAAAE973E18B7989552D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC438B5F7BB4EE3521351A11B28415C /* Pods-accept-sample-objc-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B244BF39803F3C664AA911B89761D5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AuthorizeNetAccept;
+			target = 1A55533957FF181E5D504D9E4A28316D /* AuthorizeNetAccept */;
+			targetProxy = 2DE8226C49408B9001588938D2C67F4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		416151914F9AE8DE34D2318FFDF3E1F9 /* Debug */ = {
+		1292B5D086F80028D821A3D9D174262F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B2C96157DC2B46015D622FC8A933321 /* Pods-accept-sample-objc.debug.xcconfig */;
 			buildSettings = {
@@ -226,6 +380,9 @@
 				PRODUCT_NAME = Pods_accept_sample_objc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -280,7 +437,7 @@
 			};
 			name = Debug;
 		};
-		ABE66AC74538F9E6AF073F84EDFFB55B /* Release */ = {
+		7E751607CB8AB7E7DACE84FC4108FEF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2BD86E370DE7C1025C46F80C831EB70B /* Pods-accept-sample-objc.release.xcconfig */;
 			buildSettings = {
@@ -310,11 +467,82 @@
 				PRODUCT_NAME = Pods_accept_sample_objc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8D5982371968CBE967F9408CF026F5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73DFE2F1120B93356AF97805FED4EE41 /* AuthorizeNetAccept.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AuthorizeNetAccept/AuthorizeNetAccept-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AuthorizeNetAccept/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AuthorizeNetAccept/AuthorizeNetAccept.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AuthorizeNetAccept;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A337CD8A0C6D9676AC4F07BE392B1963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73DFE2F1120B93356AF97805FED4EE41 /* AuthorizeNetAccept.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AuthorizeNetAccept/AuthorizeNetAccept-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AuthorizeNetAccept/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AuthorizeNetAccept/AuthorizeNetAccept.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AuthorizeNetAccept;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		BC3BC4399C3B6E3101028FB58D9870C6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -372,11 +600,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD5D9630EFAC90BC4666939EC635A508 /* Build configuration list for PBXNativeTarget "Pods-accept-sample-objc" */ = {
+		64C75B0CAE4C245D1B327037E928360B /* Build configuration list for PBXNativeTarget "AuthorizeNetAccept" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				416151914F9AE8DE34D2318FFDF3E1F9 /* Debug */,
-				ABE66AC74538F9E6AF073F84EDFFB55B /* Release */,
+				A337CD8A0C6D9676AC4F07BE392B1963 /* Debug */,
+				8D5982371968CBE967F9408CF026F5C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E6572D2FB0D9E56C1522D6709A736A /* Build configuration list for PBXNativeTarget "Pods-accept-sample-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1292B5D086F80028D821A3D9D174262F /* Debug */,
+				7E751607CB8AB7E7DACE84FC4108FEF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
